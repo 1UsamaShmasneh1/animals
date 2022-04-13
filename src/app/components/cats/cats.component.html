@@ -1,0 +1,17 @@
+<p>cats works!</p>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Text</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of cats">
+                <td>{{c._id}}</td>
+                <td>{{c.text}}</td>                
+            </tr>
+        </tbody>
+    </table>
+</div>
